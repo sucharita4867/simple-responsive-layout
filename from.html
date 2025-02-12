@@ -13,6 +13,24 @@
             text-decoration: none;
             color: rgb(238, 8, 8);
         }
+        .from-input{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 40%;
+            /* border: solid red; */
+        }
+        .from-input input{
+            margin-top: 25px;
+            /* width: 45%; */
+        }
+        .from-section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            /* border: 2px solid blue ; */
+        }
     </style>
 </head>
 <body>
@@ -25,5 +43,14 @@
         </div>
         <a href="">Login</a>
     </nav>
+
+    <section class="from-section">
+        <form class="from-input">
+            <h1>Please Login</h1>
+            <input type="email" name="" id="" placeholder="Enter your email" required >
+            <input type="password" name="" id="" placeholder="Enter your password" required >
+            <input type="submit" value="Login">
+        </form>
+    </section>
 </body>
 </html>
