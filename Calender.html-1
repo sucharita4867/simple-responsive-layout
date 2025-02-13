@@ -8,9 +8,10 @@
             .calender{
                   display: grid;
                   grid-template-columns: repeat(7,1fr);
-
+                  grid-template-rows: 30px repeat(5,50px);
                   row-gap:20px;
                   column-gap: 20px;
+                  /* border: 1px solid black; */
             }
             .date,.day{
                   background-color: rgba(226, 63, 63, 0.479);
@@ -20,6 +21,7 @@
                   justify-content: center;
                   align-items: center;
                   font-size: 1.6em;
+                  border: 1px solid black;
             }
             .day{
                   background-color: rgba(128, 128, 128, 0.452);
