@@ -13,6 +13,25 @@
                   text-decoration: none;
                   color: rgb(236, 138, 8);
             }
+            .Login-form-container{
+                  display: flex;
+                  justify-content: center;
+            }
+            .Login-form{
+                  display: flex;
+                  flex-direction: column;
+                  width: 50%;
+                  text-align: center;
+            }
+            .Login-form input{
+                  margin: 17px 80px 17px 80px;
+                  padding: 5px;
+                  border-radius: 7px;
+            }
+            .submit{
+                  /* margin: 60px; */
+                  background-color: rgba(91, 218, 32, 0.582);
+            }
       </style>
 </head>
 <body>
@@ -27,5 +46,14 @@
             <a href="">Login</a>
             </div>
       </nav>
+
+      <section class="Login-form-container">
+            <Form class="Login-form">
+                  <h3>Please Login</h3>
+                  <input type="email" name="" id="" placeholder="Your email" required>
+                  <input type="password" name="" id="" placeholder="password" required>
+                  <input class="submit" type="submit" name="" id="" placeholder="Login">
+            </Form>
+      </section>
 </body>
 </html>
