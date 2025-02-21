@@ -7,8 +7,14 @@
       <style>
             .container{
                   display: grid;
-                  grid-template-columns: repeat(4, 2fr)
-                  ;
+                  /* grid-template-columns: repeat(2, 2fr); */
+                  /* grid-template-columns: 150px 290px 200px auto; */
+                  grid-template-columns: repeat(3,250px);
+                  justify-content: space-around;
+                  text-align: center;
+            }
+            .item-comtainer{
+
             }
             .item{
                   border: 1px solid aqua;
@@ -16,7 +22,8 @@
       </style>
 </head>
 <body>
-      <h2>Explore Grid Layout: 2D Layout</h2>
+      <section class="item-comtainer">
+            <h2>Explore Grid Layout: 2D Layout</h2>
 
       <div class="container">
             <div class="item">item - 1</div>
@@ -39,6 +46,9 @@
             <div class="item">item - 18</div>
             <div class="item">item - 19</div>
             <div class="item">item - 20</div>
+            <div class="item">item - 21</div>
+            <div class="item">item - 22</div>
       </div>
+      </section>
 </body>
 </html>
